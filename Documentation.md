@@ -7,17 +7,17 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0D
 ```
 
 
-# Creating a window
+# Creating A Window
 ```lua
 Window = Library.Main("Your Text","LeftAlt") -- change "LeftAlt" to key that you want will hide gui
 ```
 
-# Adding tabs and sections
+# Creating A Tab
 ```lua
 local Tab = Window.NewTab("Your Tab Text")
 ```
 
-# Adding Section
+# Creating A Section
 ```lua
 local Section = Tab.NewSection("Section Text")
 ```
